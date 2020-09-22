@@ -17,7 +17,7 @@ Please select the right package for download.
 
 ## USAGE
 ```
-use \IP2ProxyYii\IP2Proxy_Yii;
+use IP2ProxyYii\IP2Proxy_Yii;
 
 // (required) Define IP2Proxy database path.
 define('IP2PROXY_DATABASE', '/path/to/ip2proxy/database');
