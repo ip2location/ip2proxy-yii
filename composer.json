@@ -1,0 +1,22 @@
+{
+    "name": "ip2location/ip2proxy-yii",
+    "description": "Allow users to query an IP address if it was being used as open proxy, web proxy, VPN anonymizer and TOR exit nodes, search engine robots, data center ranges and residential proxies.",
+    "keywords": ["yii2", "ip2proxy", "geolocation", "proxy"],
+    "homepage": "https://github.com/ip2location/ip2proxy-yii",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "IP2Location",
+            "email": "support@ip2location.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ip2location/ip2proxy-php": ">=3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "IP2ProxyYii\\": "src"
+        }
+    }
+}
