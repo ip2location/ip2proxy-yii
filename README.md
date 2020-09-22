@@ -1,5 +1,5 @@
 # IP2Proxy Yii extension
-IP2Proxy Yii extension enables the user to query an IP address if it was being used as open proxy, web proxy, VPN anonymizer and TOR exit nodes, search engine robots, data center ranges and residential proxies. It lookup the proxy IP address from IP2Proxy BIN Data file or web service. Developers can use the API to query all IP2Proxy BIN databases or web service for applications written using CakePHP.
+IP2Proxy Yii extension enables the user to query an IP address if it was being used as open proxy, web proxy, VPN anonymizer and TOR exit nodes, search engine robots, data center ranges and residential proxies. It lookup the proxy IP address from IP2Proxy BIN Data file or web service. Developers can use the API to query all IP2Proxy BIN databases or web service for applications written using Yii.
 
 
 ## INSTALLATION
