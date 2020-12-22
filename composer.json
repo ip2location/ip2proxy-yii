@@ -14,9 +14,17 @@
         "php": ">=5.4.0",
         "ip2location/ip2proxy-php": ">=3.0"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
     "autoload": {
         "psr-4": {
             "IP2ProxyYii\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "IP2ProxyYii\\Test\\": "tests"
         }
     }
 }
