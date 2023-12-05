@@ -22,6 +22,12 @@ use IP2ProxyYii\IP2Proxy_Yii;
 // (required) Define IP2Proxy database path.
 define('IP2PROXY_DATABASE', '/path/to/ip2proxy/database');
 
+// (required) Define IP2Location.io API key.
+define('IP2LOCATION_IO_API_KEY', 'your_api_key');
+
+// (optional) Define Translation information. Refer to https://www.ip2location.io/ip2location-documentation for available languages.
+define('IP2LOCATION_IO_LANGUAGE', 'en');
+
 // (required) Define IP2Proxy API key.
 define('IP2PROXY_API_KEY', 'your_api_key');
 
@@ -66,7 +72,7 @@ This library requires IP2Proxy BIN or IP2Proxy API key data file to function. Yo
 * IP2Proxy LITE BIN Data (Free): https://lite.ip2location.com
 * IP2Proxy Commercial BIN Data (Comprehensive): https://www.ip2location.com/proxy-database
 
-You can also sign up for [IP2Proxy Web Service](https://www.ip2location.com/web-service/ip2proxy) to get one free API key.
+You can also sign up for [IP2Proxy Web Service](https://www.ip2location.com/web-service/ip2proxy) or [IP2Location.io IP GEOLOCATION API](https://www.ip2location.io/sign-up) to get one free API key.
 
 
 ## SUPPORT
